@@ -1,0 +1,67 @@
+/* CSS for the Stopwatch */
+
+/* Set the background color of the page */
+body {
+  background-color: #aa8d8d;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the Stopwatch display */
+h1#timer {
+  font-size: 8rem;
+  color: rgb(214, 213, 213);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Style the button container */
+#button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the buttons */
+button {
+  background-color: #544cb6;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1rem;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Change button style on hover */
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #3f2588;
+}
+
+/* Change button style on click */
+button:active {
+  background-color: #388e3c;
+}
+
+/* Change style of the start button on click */
+button#start-btn:active {
+  background-color: #2e7d32;
+}
+
+/* Change style of the stop button on click */
+button#stop-btn:active {
+  background-color: #c62828;
+}
+
+/* Change style of the reset button on click */
+button#reset-btn:active {
+  background-color: #546e7a;
+}
